@@ -27,7 +27,7 @@ export default function UserInput({ onChageInput, userInput }) {
             required
             value={userInput.annualInvestment}
             onChange={(event) =>
-              onChageInput("annualInvstment", event.target.value)
+              onChageInput("annualInvestment", event.target.value)
             }
           />
         </p>
@@ -40,7 +40,7 @@ export default function UserInput({ onChageInput, userInput }) {
             required
             value={userInput.expectedReturn}
             onChange={(event) =>
-              onChageInput("expectredReturn", event.target.value)
+              onChageInput("expectedReturn", event.target.value)
             }
           />
         </p>
